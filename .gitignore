@@ -1,0 +1,25 @@
+# Esquema de Metadatos para Educanube (Prototipo)
+
+Propósito
+--------
+Definir los campos mínimos y recomendados que debe llevar cada recurso educativo.
+
+Campos obligatorios
+- id
+- titulo
+- autor_responsable
+- fecha_creacion (YYYY-MM-DD)
+- asignatura
+- grado_escolar
+- tipo_recurso
+- formato_archivo
+- enlace_acceso
+- derechos_uso
+- disponibilidad
+
+Se recomienda usar vocabularios controlados para asignatura, grado y tipo_recurso.
+
+Ejemplo de JSON Schema (simplificado) se encuentra en schema.json (en el repo prototipo).
+Buenas prácticas
+- Incluir subtítulos/transcripciones en multimedia.
+- Añadir versión y historial_cambios en actualizaciones.
